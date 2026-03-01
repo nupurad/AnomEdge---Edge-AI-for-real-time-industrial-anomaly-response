@@ -88,7 +88,7 @@ def main() -> None:
         learning_rate=args.lr,
         num_train_epochs=args.epochs,
         logging_steps=args.logging_steps,
-        evaluation_strategy="steps",
+        eval_strategy="steps",
         eval_steps=args.eval_steps,
         save_steps=args.save_steps,
         bf16=args.bf16,
