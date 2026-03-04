@@ -58,5 +58,5 @@ models/
 
 anomedge_full_code.zip
 hackathon@hackathon-vm-lilyedge
-
+data/*.db
 .hf_cache/
